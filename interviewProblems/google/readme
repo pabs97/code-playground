@@ -1,0 +1,22 @@
+1) Behavioral interview, questions like what would you do if you disagree with Manager, co-worker etc.
+
+2) Giving 2 nodes (node a, node b) in an HTML Tree, where nodes could be an Element, or Text node, output all the Text nodes between the given 2 Nodes (node a, node b).
+
+3) Giving a string such as "This is a string", and list of ranges where you want to apply different styling. 
+  Example input:  [{range: [0, 4], style: "bold"}, {range: [7, 12], style: "yellow"}]/
+  output an object specifying the styled substring, and what proprties applied. 
+  Example output: {
+  "This is": ["bold"],
+  " a ": [],
+  "string": ["yellow"],
+}
+
+4) System design. Create an ID Generator with the following 4 proprties:
+  1) IDs should be unique. 
+  2) IDs should be as short as possiable.
+  3) Char/Numbers can only be repeated "n" times.
+  4) I don't remember.
+
+5) Giving a binary tree, output the deepest node (priortizing the right most node).
+
+6) Create an optimized Get function that cache the 100 most recent requests. 

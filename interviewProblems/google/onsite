@@ -1,0 +1,43 @@
+1.  compression schema
+write a function that compresses a string with repeating characters
+abcccccccccabc
+to
+ab9xcabc
+
+2. words and scalar
+words = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+s = 25
+return the max number of columns that you can put the input words
+the above example should return 3 (example below)
+Assume that each character takes up one character space (1 column)
+
+1234567890123456789012345
+Mercury Venus   Earth
+Mars    Jupiter Saturn
+Uranus  Neptune 
+
+3. Parentheses and quotes
+return whether strings like these have valid parentheses and single quotes
+(a('b'c)) valid
+(a('b''c)) invalid
+(')') invalid
+''' invalid
+'''' valid
+
+4. DOM and SetTimeout chaining
+a. If you had to insert some text to a HTML element, how can you check to see if the text is valid?
+b. write a function that can set some text to a given HTML element for only x seconds
+c. write a function to show multiple texts for different times. Input could be 
+[ {message: 'message 1', time: 5}, {message: 'message 2', time: 8}]
+The messages should show up one after the other on the same (given) HTML node
+d. given an input like this
+[ 
+  {message: 'message 1', time: 5, element: el1}, 
+  {message: 'message 2', time: 8, element: el2},
+  {message: 'message 3', time: 3, element: el3}
+]
+write a function that shows the message to its corresponding element for the given time, and then run a callback once they have all disappeared
+
+Verbal Questions
+1. describe some differences between javascript and java 
+2. behaviorial questions
